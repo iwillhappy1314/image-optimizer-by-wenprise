@@ -1,0 +1,59 @@
+{
+  "name": "wenprise/image-optimizer-by-wenprise",
+  "description": "Plugin developed by wenprise",
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*",
+    "spatie/image-optimizer": "^1.2"
+  },
+  "require-dev": {
+    "wenprise/debug": "^1.0",
+    "coenjacobs/mozart": "^0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wenprise\\ImageOptimizer\\": "src/"
+    }
+  },
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "Amos Lee",
+      "email": "iwillhappy1314@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  },
+  "extra": {
+    "mozart": {
+      "dep_namespace": "Wenprise\\ImageOptimizerBy\\Vendor\\",
+      "dep_directory": "/src/Vendor/",
+      "classmap_directory": "src/Vendor/classes/",
+      "classmap_prefix": "RSC",
+      "packages": [
+        "wenprise/wp-db-base",
+        "wenprise/wordpress-dispatcher"
+      ]
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "\"vendor/bin/mozart\" compose",
+      "composer dump-autoload"
+    ],
+    "post-update-cmd": [
+      "\"vendor/bin/mozart\" compose",
+      "composer dump-autoload"
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
