@@ -7,7 +7,9 @@
 .distignore
 .phpcs.xml
 phpunit.xml.dist
+.phpcs.xml.dist
 .gitignore
+.travis.yml
 composer.json
 composer.lock
 package.json

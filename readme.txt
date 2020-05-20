@@ -13,26 +13,26 @@ Plugin description
 
 ## Description
 
-上传时自动压缩优化图片。
+上传时自动压缩优化图片，以通过 PageSpeed Insights 测试。
 
-压缩方式为有损压缩，jpeg 质量为 85%，png 质量为 80%。
-原图会被重命名为 filename.png.orig 的格式
+1. 压缩方式为有损压缩，jpeg 质量为 85%，png 质量为 80%。
+2. 原图会被重命名为 filename.png.orig 的格式
 
-需要在服务器上安装对应的压缩组件才能实现压缩。
+**需要在服务器上安装对应的压缩组件才能实现压缩。**
 
 ### CentOS
 
-```
+`
 sudo yum install epel-release jpegoptim optipng pngquant gifsicle libwebp-tools
 sudo npm install -g svgo
-```
+`
 
 ### debian
 
-```
+`
 sudo apt-get install jpegoptim optipng pngquant gifsicle webp
 sudo npm install -g svgo
-```
+`
 
 ## Installation
 
