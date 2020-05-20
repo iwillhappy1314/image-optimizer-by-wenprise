@@ -2,7 +2,7 @@
   "name": "wenprise/image-optimizer-by-wenprise",
   "description": "Plugin developed by wenprise",
   "require": {
-    "php": ">=5.6",
+    "php": ">=7.1",
     "ext-json": "*",
     "spatie/image-optimizer": "^1.2"
   },
