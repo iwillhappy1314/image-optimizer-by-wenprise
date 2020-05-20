@@ -3,7 +3,7 @@
 Plugin Name: Image optimizer by Wenprise
 Plugin URI:  http://wpzhiku.com/
 Description: 上传时自动压缩优化图片。
-Version:     1.0.1
+Version:     1.0.2
 Author:      WordPress 智库
 Author URI:  https://www.wpzhiku.com
 */

@@ -4,12 +4,12 @@ Donate link: https://www.paypal.me/wenprise
 Tags: widget, image optimizer, PageSpeed, pagespeed, 图片压缩, 网站加速, 速度优化
 Requires at least: 3.7
 Tested up to: 5.4
-Stable tag: 1.0.1
-Requires PHP: 7.2
+Stable tag: 1.0.2
+Requires PHP: 7.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin description
+上传时自动压缩优化图片，以通过 PageSpeed Insights 测试。
 
 ## Description
 
