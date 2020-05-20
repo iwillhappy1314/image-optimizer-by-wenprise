@@ -1,7 +1,7 @@
 # Image optimizer by Wenprise
 Contributors: iwillhappy1314
 Donate link: https://www.paypal.me/wenprise
-Tags: widget, menus
+Tags: widget, image optimizer, PageSpeed, pagespeed, 图片压缩, 网站加速, 速度优化
 Requires at least: 3.7
 Tested up to: 5.4
 Stable tag: 1.0.0

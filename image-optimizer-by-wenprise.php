@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Image optimizer by Wenprise
-Plugin URI: http://wpzhiku.com/
+Plugin URI:  http://wpzhiku.com/
 Description: 上传时自动压缩优化图片。
-Version:            1.0.0
-Author: 一刀
-Author URI: https://www.wpzhiku.com
+Version:     1.0.0
+Author:      WordPress 智库
+Author URI:  https://www.wpzhiku.com
 */
 
 define('IMAGE_OPTIMIZER_BY_WENPRISE_VERSION', '1.0.0');
