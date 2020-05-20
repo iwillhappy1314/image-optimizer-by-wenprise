@@ -7,8 +7,7 @@
     "spatie/image-optimizer": "^1.2"
   },
   "require-dev": {
-    "wenprise/debug": "^1.0",
-    "coenjacobs/mozart": "^0.5"
+    "wenprise/debug": "^1.0"
   },
   "autoload": {
     "psr-4": {
@@ -27,28 +26,6 @@
     "preferred-install": {
       "*": "dist"
     }
-  },
-  "extra": {
-    "mozart": {
-      "dep_namespace": "Wenprise\\ImageOptimizerBy\\Vendor\\",
-      "dep_directory": "/src/Vendor/",
-      "classmap_directory": "src/Vendor/classes/",
-      "classmap_prefix": "RSC",
-      "packages": [
-        "wenprise/wp-db-base",
-        "wenprise/wordpress-dispatcher"
-      ]
-    }
-  },
-  "scripts": {
-    "post-install-cmd": [
-      "\"vendor/bin/mozart\" compose",
-      "composer dump-autoload"
-    ],
-    "post-update-cmd": [
-      "\"vendor/bin/mozart\" compose",
-      "composer dump-autoload"
-    ]
   },
   "repositories": {
     "packagist": {
